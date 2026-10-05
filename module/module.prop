@@ -1,0 +1,6 @@
+id=mipad_guided_access
+name=MiPad Guided Access
+version=1.3
+versionCode=4
+author=mipad
+description=Hold both volume keys for 5 seconds to enter or exit guided access. 小米平板 6 (pipa), Android 14. Requires LSPosed with Android framework and System UI scopes enabled.

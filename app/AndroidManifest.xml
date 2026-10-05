@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="dev.mipad.guidedaccess" android:versionCode="4" android:versionName="1.3">
+    <uses-sdk android:minSdkVersion="34" android:targetSdkVersion="34" />
+    <application android:label="平板引导式访问" android:allowBackup="false"
+        android:supportsRtl="true">
+        <meta-data android:name="xposedmodule" android:value="true" />
+        <meta-data android:name="xposeddescription"
+            android:value="双音量键长按 5 秒切换当前 App 锁定，隐藏系统栏。适用于小米平板 6，Android 14。" />
+        <meta-data android:name="xposedminversion" android:value="100" />
+        <meta-data android:name="xposedscope" android:resource="@array/xposed_scope" />
+    </application>
+</manifest>
